@@ -1,0 +1,19 @@
+.body-cv {
+    margin-left: 25%;
+    margin-bottom: 15vh;
+}
+
+.A4 {
+    position: static;
+    width: 600px;
+    height: 100%;
+    margin-right: 0;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo {
+    margin: 5vh;
+    font-size: 25px;
+}

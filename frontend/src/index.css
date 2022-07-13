@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@300&family=Poppins:wght@400;500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Shadows+Into+Light&display=swap');
 
-:root
-{
-  --color-primary: purple;
-  --background-color: #191919;
+:root {
+  --color-header-footer: #1d1d1d;
+  --background-color: #1b1b1b;
+  --text-color-light: #d3d3d3;
+  --text-color-footer: #00ff00;
 }
 
-*
-{
+* {
   box-sizing: border-box;
-  font-family: 'Opens-sans', sans-serif;
+  font-family: 'Macondo', cursive;
 }
 
-html, body
-{
+html,
+body {
   background-color: var(--background-color);
 }
 
-a, a:hover
-{
+a,
+a:hover {
   text-decoration: none;
-  color: var(--color-primary);
+  color: unset;
 }
