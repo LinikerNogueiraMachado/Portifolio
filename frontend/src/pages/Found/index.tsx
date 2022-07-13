@@ -6,7 +6,7 @@ import './style.css'
 function Found() {
     return (
         <body className='body-form'>
-            <h1 className="title">404 Not Found</h1><hr />
+            <h1 className="title-found">404 Not Found</h1><hr />
             <div className="flex-container">
                 <div className="content-card">
                     <h1> Obrigado por acessar meu Portifólio, entre em contato para saber mais.</h1>

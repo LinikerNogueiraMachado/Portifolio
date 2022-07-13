@@ -1,0 +1,38 @@
+.body-form {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to bottom left, #8a8787, #222121, #000000);
+}
+
+.content-card h1 {
+    font-size: 20px;
+    display: flex;
+    padding: 10vh;
+    margin: 2rem;
+    width: 100%;
+    color: var(--text-color-light);
+}
+
+.span-found {
+    cursor: default;
+    margin: 5px;
+    font-size: 20px;
+    color: var(--text-color-light);
+}
+
+.flex-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-link {
+    padding: 1vh;
+    margin: 1vh;
+}
+
+.title-found{
+    font-size: 25vh;
+    color: var(--text-color-light);
+}

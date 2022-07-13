@@ -6,8 +6,11 @@ header {
     align-items: center;
 }
 
-.portifolio-nav-content {
+.portifolio-nav-content, ul, li {
     display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 20vh;
     justify-content: space-between;
     align-items: center;
     color: var(--text-color-light);

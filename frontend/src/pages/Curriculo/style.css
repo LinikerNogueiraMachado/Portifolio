@@ -17,3 +17,27 @@
     margin: 5vh;
     font-size: 25px;
 }
+
+.sub-titulo {
+    margin: 10vh;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    display: block;
+    color: black;
+    position: static;
+}
+
+.container-A4 {
+    display: flex;
+}
+
+.grid-container {
+    margin: 10vh;
+    margin-bottom: 10vh;
+}
