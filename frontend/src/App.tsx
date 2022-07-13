@@ -1,6 +1,6 @@
 function App() {
   return (
-    <h1>Pagina principal</h1>
+    <h1> <a href="/">Home</a> Pagina principal</h1>
   );
 }
 

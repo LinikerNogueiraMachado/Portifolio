@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@300&family=Poppins:wght@400;500&family=Shadows+Into+Light&display=swap');
+
+:root
+{
+  --color-primary: purple;
+  --background-color: #191919;
+}
+
+*
+{
+  box-sizing: border-box;
+  font-family: 'Opens-sans', sans-serif;
+}
+
+html, body
+{
+  background-color: var(--background-color);
+}
+
+a, a:hover
+{
+  text-decoration: none;
+  color: var(--color-primary);
+}
