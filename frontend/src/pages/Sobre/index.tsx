@@ -1,7 +1,3 @@
-import { ReactComponent as IconHTML5 } from 'assets/img/icons/Html5Icon.svg';
-import { ReactComponent as IconCSS3 } from 'assets/img/icons/Css3Icon.svg';
-import { ReactComponent as IconJS } from 'assets/img/icons/JavaScriptIcon.svg';
-
 import './style.css'
 
 function Sobre() {
@@ -24,95 +20,106 @@ function Sobre() {
                         websites, games, sistemas entre outros com a tecnologia e, ao entrar para a faculdade que
                         minha mente se "abriu", foi onde aprendi como tudo é feito e o que da para ser feito com a
                         tecnologia e, coisas incríveis podem ser feitas, modeladas, remodeladas para sanar certas "dores",
-                        aprendi como a tecnologia é extremamente útil para uma ou mais "dores" seja para entretenimento ou
+                        aprendi como a tecnologia é extremamente útil para um ou mais "dores" seja para entretenimento ou
                         para saúde. <br />
-                        &nbsp; Hoje sou Desenvolvedor, amo de paixão o que faço.
+                        &nbsp; Hoje sou um eterno aprendiz de Desenvolvimento e amo que faço.
                     </h2>
-                    <hr />
-                    <div className="down-cv">
-                        <a href="/Curriculo/1">Visualizar cv</a>
-                    </div>
-                </div>
+                </div >
+                <div className='view'><a className='view-CV' href="/Curriculo/1">Visualizar cv</a></div>
             </main>
-            <div className="title-sobre">
-                <h1 className="title-skills">Tecnologias</h1>
-            </div>
             <hr className="hr" />
+            <h1 className="title-skill">Tecnologias</h1>
+            <section>
+                <div className="container-skill">
+                    
+                    <div className='card-skill'>
+                        <div className='box-skill'>
+                            <div>
+                                <div className='percent'>
+                                    <svg className="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div className='number'>
+                                        <h2>82<h3>%</h3></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='text-skill'><h1>HTML5</h1></div>
+                    </div>
 
-            <div className="skills">
+                    <div className='card-skill'>
+                        <div className='box-skill'>
+                            <div>
+                                <div className='percent'>
+                                    <svg className="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div className='number'>
+                                        <h2>80<h3>%</h3></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='text-skill'><h1>CSS3</h1></div>
+                    </div>
 
-                <div className="flex-container-skill">
-                    <div className="avr">
-                        <h2>HTML 5</h2>
-                        <IconHTML5 />
-                        <p className="portifolio-contact-link">
-                            Em frequente estudo, ultilizo a linguagem de marcação hà dois anos.
-                        </p>
-                        <div className="container-barra">
-                            <div className="barra">
+                    <div className='card-skill'>
+                        <div className='box-skill'>
+                            <div>
+                                <div className='percent'>
+                                    <svg className="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div className='number'>
+                                        <h2>35<h3>%</h3></h2>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div className='text-skill'><h1>Javascript</h1></div>
                     </div>
-                    <div className="avr">
-                        <h2>CSS 3</h2>
-                        <IconCSS3 />
-                        <p className="portifolio-contact-link">
-                            Em frequente estudo, ultilizo a linguagem de estilização hà dois anos
-                            em conjunto com HTML5.
-                        </p>
-                        <div className="container-barra">
-                            <div className="barra">
+
+                    <div className='card-skill'>
+                        <div className='box-skill'>
+                            <div>
+                                <div className='percent'>
+                                    <svg className="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div className='number'>
+                                        <h2>40<h3>%</h3></h2>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div className='text-skill'><h1>React</h1></div>
                     </div>
-                    <div className="avr">
-                        <h2>JavaScript</h2>
-                        <IconJS />
-                        <p className="portifolio-contact-link">
-                            Em frequente estudo.
-                        </p>
-                        <div className="container-barra">
-                            <div className="barra">
+
+                    <div className='card-skill'>
+                        <div className='box-skill'>
+                            <div>
+                                <div className='percent'>
+                                    <svg className="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div className='number'>
+                                        <h2>40<h3>%</h3></h2>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div className='text-skill'><h1>Typescript</h1></div>
                     </div>
-                    <div className="avr">
-                        <h2>CSS 3</h2>
-                        <IconCSS3 />
-                        <p className="portifolio-contact-link">
-                            Em frequente estudo, ultilizo a linguagem de estilização hà dois anos
-                            em conjunto com HTML5.
-                        </p>
-                        <div className="container-barra">
-                            <div className="barra">
-                            </div>
-                        </div>
-                    </div>
-                    <div className="avr">
-                        <h2>HTML 5</h2>
-                        <IconHTML5 />
-                        <p className="portifolio-contact-link">
-                            Em frequente estudo, ultilizo a linguagem de marcação hà dois anos.
-                        </p>
-                        <div className="container-barra">
-                            <div className="barra">
-                            </div>
-                        </div>
-                    </div>
-                    <div className="avr">
-                        <h2>CSS 3</h2>
-                        <IconCSS3 />
-                        <p className="portifolio-contact-link">
-                            Em frequente estudo, ultilizo a linguagem de estilização hà dois anos
-                            em conjunto com HTML5.
-                        </p>
-                        <div className="container-barra">
-                            <div className="barra">
-                            </div>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
-            </div> <br />
+            </section>
         </body>
     )
 }

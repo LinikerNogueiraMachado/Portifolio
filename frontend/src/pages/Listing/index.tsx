@@ -2,8 +2,8 @@ import './style.css';
 
 function Listing() {
     return (
-        <section>
-            <h2>
+        <div className='section-listing'>
+            <h6 className='h2-listing'>
                 <span>P</span>
                 <span>O</span>
                 <span>R</span>
@@ -14,8 +14,8 @@ function Listing() {
                 <span>L</span>
                 <span>I</span>
                 <span>O</span>
-            </h2>
-        </section>
+            </h6>
+        </div>
     )
 }
 

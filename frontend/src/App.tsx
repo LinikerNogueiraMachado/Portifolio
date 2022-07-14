@@ -9,6 +9,7 @@ import Sobre from "./pages/Sobre";
 import Navbar from "./components/Navbar";
 import Curriculo from "./pages/Curriculo";
 import Found from "./pages/Found";
+import Form from "pages/Projetos/Form";
 
 function App() {
   return (
@@ -28,9 +29,12 @@ function App() {
         <Route path="/found">
           <Route path=":body" element={<Found />} />
         </Route>
+        <Route path="/form">
+          <Route path=":h1" element={<Form />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   )
 }
 
-export default App;  
+export default App; 

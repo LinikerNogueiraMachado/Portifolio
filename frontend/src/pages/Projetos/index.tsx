@@ -3,8 +3,10 @@ import { ReactComponent as CSS3icon } from 'assets/img/icons/Css3Icon.svg';
 import { ReactComponent as JSicon } from 'assets/img/icons/JavaScriptIcon.svg';
 import { ReactComponent as Reacticon } from 'assets/img/icons/ReactIcon.svg';
 import { ReactComponent as Bootstrapicon } from 'assets/img/icons/BootstrapIcon.svg';
+import PagForm from '../../assets/img/PagForm.png';
 
 import './style.css'
+import { NavLink } from 'react-router-dom';
 
 function Projetos() {
     return (
@@ -13,36 +15,39 @@ function Projetos() {
                 <div className="flex-container">
                     <>
                         <div>
-                            <h1 className='title-skills'>Tela de cadastro</h1>
+                            <h1 className='title-skills'>Tela de formulário</h1>
                             <div className="content-card">
                                 <span className='span-found'>Projeto criado em:</span>
                                 <div className='icon_project'>
-                                    <HTML5icon /><h2>HTML5</h2>
-                                    <CSS3icon /><h2>CSS3</h2>
-                                    <JSicon /><h2>JavaScript</h2>
+                                    <HTML5icon className='icon' /><h4>HTML5</h4>
+                                    <CSS3icon className='icon' /><h4>CSS3</h4>
+                                    <JSicon className='icon' /><h4>JavaScript</h4>
                                 </div>
                             </div>
-                            <div className='box-border'>
+                            <div className='box-border'><NavLink to='/Form/1'>
+                                <img src={PagForm} /> </NavLink>
                             </div>
                         </div>
                     </>
                     <>
                         <div>
-                            <h1 className='title-skills'>Web Site</h1>
+                            <h1 className='title-skills'>Tela de formulário</h1>
                             <div className="content-card">
                                 <span className='span-found'>Projeto criado em:</span>
                                 <div className='icon_project'>
-                                    <HTML5icon /><h2>html5</h2>
-                                    <CSS3icon /><h2>CSS3</h2>
-                                    <JSicon /><h2>JavaScript</h2>
-                                    <Reacticon /><h2>ReactJs</h2>
-                                    <Bootstrapicon /><h2>Bootstrap5</h2>
+                                    <HTML5icon className='icon' /><h4>HTML5</h4>
+                                    <CSS3icon className='icon' /><h4>CSS3</h4>
+                                    <JSicon className='icon' /><h4>JavaScript</h4>
+                                    <Bootstrapicon className='icon' /><h4>Bootstrap 5</h4>
+                                    <Reacticon className='icon' /><h4>React</h4>
                                 </div>
                             </div>
-                            <div className='box-border'>
+                            <div className='box-border'><NavLink to='/Form/1'>
+                                <img src={PagForm} /> </NavLink>
                             </div>
                         </div>
                     </>
+
                 </div>
             </div>
         </body >

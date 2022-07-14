@@ -1,10 +1,3 @@
-.body {
-    position: absolute;
-    width: 100%;
-    height: 3899px;
-    color: #fff;
-}
-
 .flex-container {
     display: flex;
     position: static;
@@ -56,19 +49,26 @@
     border-radius: 50%;
 }
 
-.down-cv {
+.view {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    font-size: 28px;
-    font-weight: 900;
+    position: relative;
+    justify-content: end;
+    top: 3vh;
+}
+
+.view-CV {
+    font-size: 25px;
     color: var(--text-color-footer);
+    width: fit-content;
+    margin: 10px;
 }
 
-.down-cv a:hover {
-    color: #444444;
+.view-CV:hover {
+    color: #ff0000;
 }
 
-.title-skills {
+.title-skill {
     display: flex;
     font-size: 50px;
     color: var(--text-color-footer);
@@ -76,577 +76,193 @@
     align-items: center;
 }
 
-.skills h2 {
+.skill h2 {
     color: var(--text-color-light);
     font-size: 20px;
 }
 
-.flex-container-skill {
+.container-skill {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
     justify-content: space-evenly;
 }
 
-.avr {
-    width: 400px;
-    height: 300px;
-    border-radius: 5px;
-    background-color: #444444;
-    margin: .6rem auto;
-    text-align: center;
-}
-
-.avr h2 {
-    text-align: center;
+section {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    color: #000000;
-    font-size: 40px;
-    font-weight: 900;
+    padding: 40px 0;
+    min-height: 200vh;
+    background: #350048;
 }
 
-.avr p {
-    color: #ffffff;
-    font-size: 25px;
+section::before {
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #caaad6;
 }
 
-:root {
-    --counter: 0;
-    --text-color-bar: #ffffff;
-    --bar-color: #00ff00;
-    --border-bar-color: #000000;
-}
-
-.container-barra {
+.container-skill {
+    width: 900px;
     display: flex;
-    position: static;
-    width: 300px;
-    height: 1rem;
-    bottom: 0;
-    border: solid 2px var(--border-bar-color);
-    border-radius: 3px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.barra {
+.container-skill .card-skill {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    z-index: 10;
+    margin: 20px 20px 60px;
+}
+
+.container-skill .card-skill .box-skill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    background-color: var(--bar-color);
-    animation-name: barra;
-    animation-duration: 3.4s;
-    animation-iteration-count: infinite;
-    animation-delay: 2s;
-    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 
+    1px 1px 1px white,
+    15px 15px 14px rgba(0, 0, 0, 0.753);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    border-radius: 10px;
 }
 
-.barra::after {
-    content: var(--counter);
-    font-size: 26px;
-    display: block;
-    color: var(--text-color-bar);
+.percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 100;
 }
 
-@keyframes barra {
-    0% {
-        width: 0%;
-        --counter: "0%";
-    }
-
-    1% {
-        width: 1%;
-        --counter: "1%";
-    }
-
-    2% {
-        width: 2%;
-        --counter: "2%";
-    }
-
-    3% {
-        width: 3%;
-        --counter: "3%";
-    }
-
-    4% {
-        width: 4%;
-        --counter: "4%";
-    }
-
-    5% {
-        width: 5%;
-        --counter: "5%";
-    }
-
-    6% {
-        width: 6%;
-        --counter: "6%";
-    }
-
-    7% {
-        width: 7%;
-        --counter: "7%";
-    }
-
-    8% {
-        width: 8%;
-        --counter: "8%";
-    }
-
-    9% {
-        width: 9%;
-        --counter: "9%";
-    }
-
-    10% {
-        width: 10%;
-        --counter: "10%";
-    }
-
-    11% {
-        width: 11%;
-        --counter: "11%";
-    }
-
-    12% {
-        width: 12%;
-        --counter: "12%";
-    }
-
-    13% {
-        width: 13%;
-        --counter: "13%";
-    }
-
-    14% {
-        width: 14%;
-        --counter: "14%";
-    }
-
-    15% {
-        width: 15%;
-        --counter: "15%";
-    }
-
-    16% {
-        width: 16%;
-        --counter: "16%";
-    }
-
-    17% {
-        width: 17%;
-        --counter: "17%";
-    }
-
-    18% {
-        width: 18%;
-        --counter: "18%";
-    }
-
-    19% {
-        width: 19%;
-        --counter: "19%";
-    }
-
-    20% {
-        width: 20%;
-        --counter: "20%";
-    }
-
-    21% {
-        width: 21%;
-        --counter: "21%";
-    }
-
-    22% {
-        width: 22%;
-        --counter: "22%";
-    }
-
-    23% {
-        width: 23%;
-        --counter: "23%";
-    }
-
-    24% {
-        width: 24%;
-        --counter: "24%";
-    }
-
-    25% {
-        width: 25%;
-        --counter: "25%";
-    }
-
-    26% {
-        width: 26%;
-        --counter: "26%";
-    }
-
-    27% {
-        width: 27%;
-        --counter: "27%";
-    }
-
-    28% {
-        width: 28%;
-        --counter: "28%";
-    }
-
-    29% {
-        width: 29%;
-        --counter: "29%";
-    }
-
-    30% {
-        width: 30%;
-        --counter: "30%";
-    }
-
-    31% {
-        width: 31%;
-        --counter: "31%";
-    }
-
-    32% {
-        width: 32%;
-        --counter: "32%";
-    }
-
-    33% {
-        width: 33%;
-        --counter: "33%";
-    }
-
-    34% {
-        width: 34%;
-        --counter: "34%";
-    }
-
-    35% {
-        width: 35%;
-        --counter: "35%";
-    }
-
-    36% {
-        width: 36%;
-        --counter: "36%";
-    }
-
-    37% {
-        width: 37%;
-        --counter: "37%";
-    }
-
-    38% {
-        width: 38%;
-        --counter: "38%";
-    }
-
-    39% {
-        width: 39%;
-        --counter: "39%";
-    }
-
-    40% {
-        width: 40%;
-        --counter: "40%";
-    }
-
-    41% {
-        width: 41%;
-        --counter: "41%";
-    }
-
-    42% {
-        width: 42%;
-        --counter: "42%";
-    }
-
-    43% {
-        width: 43%;
-        --counter: "43%";
-    }
-
-    44% {
-        width: 44%;
-        --counter: "44%";
-    }
-
-    45% {
-        width: 45%;
-        --counter: "45%";
-    }
-
-    46% {
-        width: 46%;
-        --counter: "46%";
-    }
-
-    47% {
-        width: 47%;
-        --counter: "47%";
-    }
-
-    48% {
-        width: 48%;
-        --counter: "48%";
-    }
-
-    49% {
-        width: 49%;
-        --counter: "49%";
-    }
-
-    50% {
-        width: 50%;
-        --counter: "50%";
-    }
-
-    51% {
-        width: 51%;
-        --counter: "51%";
-    }
-
-    52% {
-        width: 52%;
-        --counter: "52%";
-    }
-
-    53% {
-        width: 53%;
-        --counter: "53%";
-    }
-
-    54% {
-        width: 54%;
-        --counter: "54%";
-    }
-
-    55% {
-        width: 55%;
-        --counter: "55%";
-    }
-
-    56% {
-        width: 56%;
-        --counter: "56%";
-    }
-
-    57% {
-        width: 57%;
-        --counter: "57%";
-    }
-
-    58% {
-        width: 58%;
-        --counter: "58%";
-    }
-
-    59% {
-        width: 59%;
-        --counter: "59%";
-    }
-
-    60% {
-        width: 60%;
-        --counter: "60%";
-    }
-
-    61% {
-        width: 61%;
-        --counter: "61%";
-    }
-
-    62% {
-        width: 62%;
-        --counter: "62%";
-    }
-
-    63% {
-        width: 63%;
-        --counter: "63%";
-    }
-
-    64% {
-        width: 64%;
-        --counter: "64%";
-    }
-
-    65% {
-        width: 65%;
-        --counter: "65%";
-    }
-
-    66% {
-        width: 66%;
-        --counter: "66%";
-    }
-
-    67% {
-        width: 67%;
-        --counter: "67%";
-    }
-
-    68% {
-        width: 68%;
-        --counter: "68%";
-    }
-
-    69% {
-        width: 69%;
-        --counter: "69%";
-    }
-
-    70% {
-        width: 70%;
-        --counter: "70%";
-    }
-
-    71% {
-        width: 71%;
-        --counter: "71%";
-    }
-
-    72% {
-        width: 72%;
-        --counter: "72%";
-    }
-
-    73% {
-        width: 73%;
-        --counter: "73%";
-    }
-
-    74% {
-        width: 74%;
-        --counter: "74%";
-    }
-
-    75% {
-        width: 75%;
-        --counter: "75%";
-    }
-
-    76% {
-        width: 76%;
-        --counter: "76%";
-    }
-
-    77% {
-        width: 77%;
-        --counter: "77%";
-    }
-
-    78% {
-        width: 78%;
-        --counter: "78%";
-    }
-
-    79% {
-        width: 79%;
-        --counter: "79%";
-    }
-
-    80% {
-        width: 80%;
-        --counter: "80%";
-    }
-
-    81% {
-        width: 81%;
-        --counter: "81%";
-    }
-
-    82% {
-        width: 82%;
-        --counter: "82%";
-    }
-
-    83% {
-        width: 83%;
-        --counter: "83%";
-    }
-
-    84% {
-        width: 84%;
-        --counter: "84%";
-    }
-
-    85% {
-        width: 85%;
-        --counter: "85%";
-    }
-
-    86% {
-        width: 86%;
-        --counter: "86%";
-    }
-
-    87% {
-        width: 87%;
-        --counter: "87%";
-    }
-
-    88% {
-        width: 88%;
-        --counter: "88%";
-    }
-
-    89% {
-        width: 89%;
-        --counter: "89%";
-    }
-
-    90% {
-        width: 90%;
-        --counter: "90%";
-    }
-
-    91% {
-        width: 91%;
-        --counter: "91%";
-    }
-
-    92% {
-        width: 92%;
-        --counter: "92%";
-    }
-
-    93% {
-        width: 93%;
-        --counter: "93%";
-    }
-
-    94% {
-        width: 94%;
-        --counter: "94%";
-    }
-
-    95% {
-        width: 95%;
-        --counter: "95%";
-    }
-
-    96% {
-        width: 96%;
-        --counter: "96%";
-    }
-
-    97% {
-        width: 97%;
-        --counter: "97%";
-    }
-
-    98% {
-        width: 98%;
-        --counter: "98%";
-    }
-
-    99% {
-        width: 99%;
-        --counter: "99%";
-    }
-
-    to {
-        width: 100%;
-        --counter: "100%";
-    }
+.percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.percent .number h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.percent .number h2 h3 {
+    font-size: 40px;
+}
+
+.text-skill {
+    position: absolute;
+    bottom: -32px;
+    left: 23%;
+    transform: translateX(-10%);
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px 10px;
+    background: #fff;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.733);
+    z-index: 1;
+    pointer-events: none;
+    transition: bottom 0.5s, z-index 0s, transform 0.5s, padding 0.5s;
+    transition-delay: 0.5s, 0.5s, 0s, 0.5s;
+    color: #fff;
+}
+
+.card-skill:hover .text-skill {
+    transition-delay: 0s, 0.5s, 0.5s, 0s;
+    bottom: -55px;
+    z-index: 15;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px 20px 10px;
+}
+
+.card-skill:nth-child(1) .text-skill {
+    background-color: #d43900;
+}
+
+.card-skill:nth-child(2) .text-skill {
+    background-color: #1414ff;
+}
+
+.card-skill:nth-child(3) .text-skill {
+    background-color: #ffd000;
+}
+
+.card-skill:nth-child(4) .text-skill {
+    background-color: #00e1ff;
+}
+
+.card-skill:nth-child(5) .text-skill {
+    background-color: #d400ff;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+    stroke: rgba(255, 255, 255, 0.05);
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+}
+
+svg circle:nth-child(2) {
+    stroke: #fff;
+    stroke-dasharray: 440px;
+    stroke-dashoffset: 440px;
+}
+
+.card-skill:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 82) / 100);
+}
+
+.card-skill:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 80) / 100);
+}
+
+.card-skill:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 35) / 100);
+}
+
+.card-skill:nth-child(4) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 40) / 100);
+}
+
+.card-skill:nth-child(5) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440px - (440px * 40) / 100);
 }

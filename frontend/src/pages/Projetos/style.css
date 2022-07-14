@@ -81,14 +81,18 @@
 
 .icon_project {
     display: flex;
+    width: 50rem;
+    height: 40px;
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: 0;
 }
 
-.icon_project h2 {
+.icon_project h4 {
     font-size: 10px;
     margin: 0;
+    color: var(--text-color-light);
     text-transform: none;
 }
 
@@ -105,6 +109,7 @@
     border-radius: 15px;
 }
 
-svg {
+.icon {
     width: 40px;
+    height: 40px;
 }
