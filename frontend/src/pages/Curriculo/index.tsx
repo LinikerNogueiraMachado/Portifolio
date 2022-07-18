@@ -11,8 +11,10 @@ function Curriculo() {
                             Liniker Nogueira Machado</div>
                         <hr />
                         <div className="sub-titulo">
-                            Joanópolis, São Paulo, 12980-000 | Cel. (11) 955787391 |
-                            linikernogueiramachado@gmail.com
+                            Joanópolis, São Paulo, 12980-000 |<br />
+                            Cel. <a className='whats' href="https://bit.ly/portifolio_liniker_nogueira">
+                                (11) 9 5578-7391 </a>
+                            <a className='gmail' href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfqccMcFplqFlWHsKGMxNHDhprGgWzNkmQPThFfdXKmxFDPCzXNvShfwmbLTZHGFzrwXJB" target="_blank"> linikernogueiramachado@gmail.com</a>
                         </div> <br /> <hr />
                         <div className="titulo">HABILIDADES E CONHECIMENTOS</div>
                         <div className="sub-titulo">

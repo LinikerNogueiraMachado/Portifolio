@@ -2,15 +2,16 @@
     display: flex;
     position: static;
     margin: 0;
-    padding: 0;
+    padding: 2vh;
     top: 2vh;
+    bottom: 3vh;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .grid1 {
     margin: 0;
-    padding: 0;
+    padding: 5vh;
     width: 600px;
     height: 700px;
     top: 3vh;
@@ -29,24 +30,16 @@
     text-align: justify;
 }
 
-.circle-photo {
-    display: flex;
-    position: relative;
+.bg-photo img {
     background: linear-gradient(#1b1b1b 30%, #000000 130%);
+    display: flex;
+    right: 0;
     width: 400px;
     height: 400px;
-    left: 10vh;
+    left: 1rem;
     border-radius: 50%;
     justify-content: center;
     top: 10vh;
-}
-
-.foto-perfil {
-    background-size: cover;
-    width: 400px;
-    height: 400px;
-    right: 0;
-    border-radius: 50%;
 }
 
 .view {

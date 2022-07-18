@@ -1,10 +1,12 @@
 import './style.css'
+import FotoPerfil from '../../assets/img/foto-perfil.png';
 
 function Sobre() {
     return (
         <body>
             <main className="flex-container">
-                <div className="grid1">
+                <div className="bg-photo">
+                        <img src={FotoPerfil} />
                 </div>
                 <div className="grid1">
                     <h1> Oi, <br /> Sou <em>Liniker!</em></h1>
@@ -31,7 +33,7 @@ function Sobre() {
             <h1 className="title-skill">Tecnologias</h1>
             <section>
                 <div className="container-skill">
-                    
+
                     <div className='card-skill'>
                         <div className='box-skill'>
                             <div>
@@ -116,8 +118,6 @@ function Sobre() {
                         </div>
                         <div className='text-skill'><h1>Typescript</h1></div>
                     </div>
-                    
-                    
                 </div>
             </section>
         </body>

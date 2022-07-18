@@ -1,5 +1,6 @@
 .body-cv {
-    margin-left: 25%;
+    margin: 0;
+    margin-left: 30%;
     margin-bottom: 15vh;
 }
 
@@ -7,6 +8,7 @@
     position: static;
     width: 600px;
     height: 100%;
+    margin: 0;
     margin-right: 0;
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -40,4 +42,14 @@ hr {
 .grid-container {
     margin: 10vh;
     margin-bottom: 10vh;
+}
+
+.whats {
+    color: #0400ff;
+    font-weight: 900;   
+}
+
+.gmail {
+    color: #0400ff;
+    font-weight: 700;
 }
