@@ -22,3 +22,7 @@ a:hover {
   text-decoration: none;
   color: unset;
 }
+
+span {
+  color: var(--text-color-light);
+}

@@ -1,0 +1,56 @@
+:root
+{
+    --clr-1:#ff9100;
+    --clr-2:#ff0000;
+    --clr-3:#33ff00;
+    --clr-4:#636363;
+    --crl-5:#ffffff;
+}
+
+.title-cn {
+    position: relative;
+    left: 45%;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0;
+    width: 250px;
+}
+
+.ul-menu {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.ul-menu .li-nude {
+    list-style: none;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.ul-menu .li-nude .a-nude {
+    position: relative;
+    font-size: 2.2em;
+    text-decoration: none;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.ul-menu .li-nude .a-nude::before {
+    content: attr(data-text);
+    position: absolute;
+    color: transparent;
+    width: 0;
+    overflow: hidden;
+    transition: 2s;
+    border-right: 2px solid var(--crl-5);
+    -webkit-text-stroke: 3px var(--crl-5);
+}
+
+.ul-menu .li-nude .a-nude:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px var(--clr-4));
+}

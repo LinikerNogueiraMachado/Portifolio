@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Curriculo from "./pages/Curriculo";
 import Found from "./pages/Found";
 import Form from "pages/Projetos/Form";
+import CustomNude from "pages/Projetos/CustomNude";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/form">
           <Route path=":h1" element={<Form />} />
+        </Route>
+        <Route path="/CustomNude">
+          <Route path=":body" element={<CustomNude />} />
         </Route>
       </Routes>
     </BrowserRouter>

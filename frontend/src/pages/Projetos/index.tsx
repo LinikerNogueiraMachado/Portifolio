@@ -4,6 +4,7 @@ import { ReactComponent as JSicon } from 'assets/img/icons/JavaScriptIcon.svg';
 import { ReactComponent as Reacticon } from 'assets/img/icons/ReactIcon.svg';
 import { ReactComponent as Bootstrapicon } from 'assets/img/icons/BootstrapIcon.svg';
 import PagForm from '../../assets/img/PagForm.png';
+import TelaCn from '../../assets/img/tela-cn.png';
 
 import './style.css'
 import { NavLink } from 'react-router-dom';
@@ -31,7 +32,7 @@ function Projetos() {
                     </>
                     <>
                         <div>
-                            <h1 className='title-skills'>Tela de formulário</h1>
+                            <h1 className='title-skills'>Menu customizado</h1>
                             <div className="content-card">
                                 <span className='span-found'>Projeto criado em:</span>
                                 <div className='icon_project'>
@@ -42,8 +43,8 @@ function Projetos() {
                                     <Reacticon className='icon' /><h4>React</h4>
                                 </div>
                             </div>
-                            <div className='box-border'><NavLink to='/Form/1'>
-                                <img src={PagForm} /> </NavLink>
+                            <div className='box-border'><NavLink to='/CustomNude/1'>
+                                <img src={TelaCn} /> </NavLink>
                             </div>
                         </div>
                     </>

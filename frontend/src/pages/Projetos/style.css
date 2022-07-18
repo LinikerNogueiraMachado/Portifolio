@@ -1,8 +1,3 @@
-.h1-project {
-    color: var(--text-color-footer);
-    font-size: 30px;
-}
-
 .flex-container {
     flex-wrap: wrap;
 }
@@ -94,13 +89,6 @@
     margin: 0;
     color: var(--text-color-light);
     text-transform: none;
-}
-
-.titulo-projeto {
-    display: flex;
-    position: relative;
-    padding: 0;
-    margin: 0;
 }
 
 .flex-container img {
